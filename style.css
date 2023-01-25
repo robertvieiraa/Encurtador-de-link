@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family= Bungee+Spice & family= Inter:wght@300 & family= Montserrat+Subrayada:wght@700 & family= Poppins:wght@ 100;200;300;400 & display=swap');
+
+body{
+    background-color: #1E272E;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99vw;
+    height: 90vh;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: 300px;
+    margin-top: -100px;
+}
+
+h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.box-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 12px 20px;
+    text-align: center;
+    outline: transparent;
+    width: 40%;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #1E272E;
+}
+
+.btn{
+    padding: 15px 20px;
+    width: 170px;
+    margin-left: 10px;
+    border-radius: 50px;
+    background-color: #FFD32A;
+    font-size: 20px;
+    color: #1E272E;
+}
+
+.btn:hover{
+    cursor: pointer;
+    transition: .5s;
+    background-color: #FAC800;
+}
